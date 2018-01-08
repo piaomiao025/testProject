@@ -1,0 +1,1168 @@
+2018-01-08 17:01:13.001 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1184] - Using default implementation for ThreadExecutor
+2018-01-08 17:01:13.017 [main] INFO  org.quartz.simpl.SimpleThreadPool[SimpleThreadPool.java:268] - Job execution threads will use class loader of thread: main
+2018-01-08 17:01:13.040 [main] INFO  org.quartz.core.SchedulerSignalerImpl[SchedulerSignalerImpl.java:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-01-08 17:01:13.044 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:240] - Quartz Scheduler v.2.2.1 created.
+2018-01-08 17:01:13.047 [main] INFO  org.quartz.simpl.RAMJobStore[RAMJobStore.java:155] - RAMJobStore initialized.
+2018-01-08 17:01:13.048 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:305] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-01-08 17:01:13.049 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1339] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-01-08 17:01:13.049 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1343] - Quartz scheduler version: 2.2.1
+2018-01-08 17:01:13.081 [main] INFO  com.man.demo.QuartzManager[QuartzManager.java:106] - jobClass=com.man.demo.TestTimer,date=1515402075000
+2018-01-08 17:01:13.085 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:575] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-01-08 17:01:15.010 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:01:15.511 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:01:20.002 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:01:20.503 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:01:25.000 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:01:25.501 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:01:30.001 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:01:30.502 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:01:35.002 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:01:35.503 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:01:40.001 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:01:40.502 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:01:45.001 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:01:45.502 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:01:50.001 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:01:50.501 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:01:55.026 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:01:55.528 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:02:00.002 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:02:00.502 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:02:05.001 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:02:05.502 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:02:10.001 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:02:10.502 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:02:34.992 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1184] - Using default implementation for ThreadExecutor
+2018-01-08 17:02:35.025 [main] INFO  org.quartz.simpl.SimpleThreadPool[SimpleThreadPool.java:268] - Job execution threads will use class loader of thread: main
+2018-01-08 17:02:35.097 [main] INFO  org.quartz.core.SchedulerSignalerImpl[SchedulerSignalerImpl.java:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-01-08 17:02:35.100 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:240] - Quartz Scheduler v.2.2.1 created.
+2018-01-08 17:02:35.103 [main] INFO  org.quartz.simpl.RAMJobStore[RAMJobStore.java:155] - RAMJobStore initialized.
+2018-01-08 17:02:35.105 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:305] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-01-08 17:02:35.106 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1339] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-01-08 17:02:35.106 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1343] - Quartz scheduler version: 2.2.1
+2018-01-08 17:02:35.145 [main] INFO  com.man.demo.QuartzManager[QuartzManager.java:106] - jobClass=com.man.demo.TestTimer,date=1515402300000
+2018-01-08 17:02:35.148 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:575] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-01-08 17:02:58.770 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1184] - Using default implementation for ThreadExecutor
+2018-01-08 17:02:58.786 [main] INFO  org.quartz.simpl.SimpleThreadPool[SimpleThreadPool.java:268] - Job execution threads will use class loader of thread: main
+2018-01-08 17:02:58.814 [main] INFO  org.quartz.core.SchedulerSignalerImpl[SchedulerSignalerImpl.java:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-01-08 17:02:58.817 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:240] - Quartz Scheduler v.2.2.1 created.
+2018-01-08 17:02:58.825 [main] INFO  org.quartz.simpl.RAMJobStore[RAMJobStore.java:155] - RAMJobStore initialized.
+2018-01-08 17:02:58.830 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:305] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-01-08 17:02:58.830 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1339] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-01-08 17:02:58.831 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1343] - Quartz scheduler version: 2.2.1
+2018-01-08 17:02:58.876 [main] INFO  com.man.demo.QuartzManager[QuartzManager.java:106] - jobClass=com.man.demo.TestTimer,date=1515402178000
+2018-01-08 17:02:58.883 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:575] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-01-08 17:02:58.902 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:02:59.403 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:02:59.408 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:02:59.910 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:00.002 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:00.504 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:01.002 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:01.503 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:02.002 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:02.503 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:03.001 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:03.503 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:04.002 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:04.504 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:05.001 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:05.502 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:06.009 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:06.511 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:07.002 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:07.503 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:08.002 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:08.503 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:09.001 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:09.502 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:10.001 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:10.502 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:11.001 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:11.502 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:12.000 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:12.501 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:13.010 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:13.510 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:14.001 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:14.502 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:15.002 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:15.503 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:16.000 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:16.501 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:17.000 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:17.501 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:18.002 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:18.503 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:19.001 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:19.502 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:20.001 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:20.502 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:21.000 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:21.501 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:22.001 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:22.502 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:23.001 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:23.502 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:24.001 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:24.502 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:25.001 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:25.502 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:26.000 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:26.501 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:27.000 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:27.501 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:28.002 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:28.503 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:29.000 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:29.501 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:30.001 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:30.501 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:31.001 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:31.502 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:32.002 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:32.502 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:33.001 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:33.502 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:34.000 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:34.501 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:35.001 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:35.502 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:36.000 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:36.501 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:37.001 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:37.502 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:38.000 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:38.502 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:39.001 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:39.502 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:40.001 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:40.503 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:41.002 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:41.503 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:42.000 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:42.501 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:43.000 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:43.502 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:44.000 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:44.501 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:45.001 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:45.503 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:46.001 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:46.501 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:47.002 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:47.502 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:48.001 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:48.502 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:49.002 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:49.502 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:50.001 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:50.502 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:51.000 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:51.502 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:52.001 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:52.502 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:53.001 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:53.502 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:54.001 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:54.503 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:55.001 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:55.502 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:56.001 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:56.502 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:57.001 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:57.502 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:58.000 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:58.502 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:04:59.001 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:04:59.501 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:05:26.635 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1184] - Using default implementation for ThreadExecutor
+2018-01-08 17:05:26.650 [main] INFO  org.quartz.simpl.SimpleThreadPool[SimpleThreadPool.java:268] - Job execution threads will use class loader of thread: main
+2018-01-08 17:05:26.677 [main] INFO  org.quartz.core.SchedulerSignalerImpl[SchedulerSignalerImpl.java:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-01-08 17:05:26.681 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:240] - Quartz Scheduler v.2.2.1 created.
+2018-01-08 17:05:26.683 [main] INFO  org.quartz.simpl.RAMJobStore[RAMJobStore.java:155] - RAMJobStore initialized.
+2018-01-08 17:05:26.685 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:305] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-01-08 17:05:26.686 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1339] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-01-08 17:05:26.686 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1343] - Quartz scheduler version: 2.2.1
+2018-01-08 17:05:26.706 [main] INFO  com.man.demo.QuartzManager[QuartzManager.java:106] - jobClass=com.man.demo.TestTimer,date=1515402360000
+2018-01-08 17:05:26.708 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:575] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-01-08 17:06:00.025 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:06:00.526 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:06:15.435 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1184] - Using default implementation for ThreadExecutor
+2018-01-08 17:06:15.454 [main] INFO  org.quartz.simpl.SimpleThreadPool[SimpleThreadPool.java:268] - Job execution threads will use class loader of thread: main
+2018-01-08 17:06:15.496 [main] INFO  org.quartz.core.SchedulerSignalerImpl[SchedulerSignalerImpl.java:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-01-08 17:06:15.501 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:240] - Quartz Scheduler v.2.2.1 created.
+2018-01-08 17:06:15.508 [main] INFO  org.quartz.simpl.RAMJobStore[RAMJobStore.java:155] - RAMJobStore initialized.
+2018-01-08 17:06:15.511 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:305] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-01-08 17:06:15.512 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1339] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-01-08 17:06:15.512 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1343] - Quartz scheduler version: 2.2.1
+2018-01-08 17:06:15.545 [main] INFO  com.man.demo.QuartzManager[QuartzManager.java:106] - jobClass=com.man.demo.TestTimer,date=1515402480000
+2018-01-08 17:06:15.549 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:575] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-01-08 17:08:00.015 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:08:00.516 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:10:00.004 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:10:00.508 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:12:00.005 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:12:00.506 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:13:09.992 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1184] - Using default implementation for ThreadExecutor
+2018-01-08 17:13:10.010 [main] INFO  org.quartz.simpl.SimpleThreadPool[SimpleThreadPool.java:268] - Job execution threads will use class loader of thread: main
+2018-01-08 17:13:10.037 [main] INFO  org.quartz.core.SchedulerSignalerImpl[SchedulerSignalerImpl.java:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-01-08 17:13:10.039 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:240] - Quartz Scheduler v.2.2.1 created.
+2018-01-08 17:13:10.041 [main] INFO  org.quartz.simpl.RAMJobStore[RAMJobStore.java:155] - RAMJobStore initialized.
+2018-01-08 17:13:10.043 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:305] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-01-08 17:13:10.043 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1339] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-01-08 17:13:10.044 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1343] - Quartz scheduler version: 2.2.1
+2018-01-08 17:13:10.064 [main] INFO  com.man.demo.QuartzManager[QuartzManager.java:106] - jobClass=com.man.demo.TestTimer,date=1515402830000
+2018-01-08 17:13:10.067 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:575] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-01-08 17:13:50.031 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:13:50.532 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:14:00.002 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:14:00.504 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:14:15.081 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1184] - Using default implementation for ThreadExecutor
+2018-01-08 17:14:15.094 [main] INFO  org.quartz.simpl.SimpleThreadPool[SimpleThreadPool.java:268] - Job execution threads will use class loader of thread: main
+2018-01-08 17:14:15.121 [main] INFO  org.quartz.core.SchedulerSignalerImpl[SchedulerSignalerImpl.java:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-01-08 17:14:15.127 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:240] - Quartz Scheduler v.2.2.1 created.
+2018-01-08 17:14:15.129 [main] INFO  org.quartz.simpl.RAMJobStore[RAMJobStore.java:155] - RAMJobStore initialized.
+2018-01-08 17:14:15.132 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:305] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-01-08 17:14:15.133 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1339] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-01-08 17:14:15.134 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1343] - Quartz scheduler version: 2.2.1
+2018-01-08 17:14:15.150 [main] INFO  com.man.demo.QuartzManager[QuartzManager.java:106] - jobClass=com.man.demo.TestTimer,date=1515402890000
+2018-01-08 17:14:15.153 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:575] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-01-08 17:14:50.009 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:14:50.029 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:14:50.510 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:14:50.530 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:15:00.003 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:15:00.009 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:15:00.506 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:15:00.511 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:15:50.002 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:15:50.003 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:15:50.505 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:15:50.505 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:16:00.005 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:16:00.009 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:16:00.508 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:16:00.512 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:16:50.002 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:16:50.002 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:16:50.504 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:16:50.504 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:17:00.001 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:17:00.004 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:17:00.504 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:17:00.506 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:17:50.001 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:17:50.009 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:17:50.502 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:17:50.510 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:18:00.002 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:18:00.002 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:18:00.503 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:18:00.503 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:18:49.166 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1184] - Using default implementation for ThreadExecutor
+2018-01-08 17:18:49.194 [main] INFO  org.quartz.simpl.SimpleThreadPool[SimpleThreadPool.java:268] - Job execution threads will use class loader of thread: main
+2018-01-08 17:18:49.237 [main] INFO  org.quartz.core.SchedulerSignalerImpl[SchedulerSignalerImpl.java:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-01-08 17:18:49.241 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:240] - Quartz Scheduler v.2.2.1 created.
+2018-01-08 17:18:49.244 [main] INFO  org.quartz.simpl.RAMJobStore[RAMJobStore.java:155] - RAMJobStore initialized.
+2018-01-08 17:18:49.248 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:305] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-01-08 17:18:49.249 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1339] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-01-08 17:18:49.251 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1343] - Quartz scheduler version: 2.2.1
+2018-01-08 17:18:49.304 [main] INFO  com.man.demo.QuartzManager[QuartzManager.java:106] - jobClass=com.man.demo.TestTimer,date=1515403130000
+2018-01-08 17:18:49.331 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:575] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-01-08 17:18:50.002 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:18:50.005 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:18:50.061 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:18:50.551 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:18:50.554 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:18:50.564 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:19:00.001 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:19:00.003 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:19:00.503 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:19:00.503 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:19:50.001 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:19:50.002 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:19:50.003 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:19:50.502 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:19:50.503 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:19:50.504 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:20:00.006 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:20:00.007 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:20:00.507 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:20:00.508 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:20:50.001 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:20:50.001 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:20:50.004 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:20:50.503 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:20:50.504 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:20:50.505 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:21:00.004 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:21:00.015 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:21:00.505 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:21:00.516 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:21:28.638 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1184] - Using default implementation for ThreadExecutor
+2018-01-08 17:21:28.653 [main] INFO  org.quartz.simpl.SimpleThreadPool[SimpleThreadPool.java:268] - Job execution threads will use class loader of thread: main
+2018-01-08 17:21:28.685 [main] INFO  org.quartz.core.SchedulerSignalerImpl[SchedulerSignalerImpl.java:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-01-08 17:21:28.688 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:240] - Quartz Scheduler v.2.2.1 created.
+2018-01-08 17:21:28.691 [main] INFO  org.quartz.simpl.RAMJobStore[RAMJobStore.java:155] - RAMJobStore initialized.
+2018-01-08 17:21:28.693 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:305] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-01-08 17:21:28.694 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1339] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-01-08 17:21:28.694 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1343] - Quartz scheduler version: 2.2.1
+2018-01-08 17:21:28.710 [main] INFO  com.man.demo.QuartzManager[QuartzManager.java:106] - jobClass=com.man.demo.TestTimer,date=1515403300000
+2018-01-08 17:21:28.713 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:575] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-01-08 17:21:40.017 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:21:40.519 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:21:50.001 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:21:50.001 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:21:50.502 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:21:50.502 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:22:00.004 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:22:00.008 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:22:00.505 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:22:00.510 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:22:40.002 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:22:40.503 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:22:50.000 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:22:50.001 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:22:50.501 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:22:50.502 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:23:00.001 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:23:00.003 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:23:00.503 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:23:00.505 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:23:40.002 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:23:40.504 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:23:50.001 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:23:50.001 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:23:50.501 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:23:50.502 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:24:00.001 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:24:00.002 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:24:00.501 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:24:00.503 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:24:40.001 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:24:40.502 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:24:50.001 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:24:50.001 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:24:50.502 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:24:50.502 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:25:00.001 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:25:00.002 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:25:00.503 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:25:00.503 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:25:40.001 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:25:40.502 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:25:50.001 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:25:50.001 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:25:50.502 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:25:50.502 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:26:00.001 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:26:00.002 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:26:00.501 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:26:00.502 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:26:12.242 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1184] - Using default implementation for ThreadExecutor
+2018-01-08 17:26:12.255 [main] INFO  org.quartz.simpl.SimpleThreadPool[SimpleThreadPool.java:268] - Job execution threads will use class loader of thread: main
+2018-01-08 17:26:12.279 [main] INFO  org.quartz.core.SchedulerSignalerImpl[SchedulerSignalerImpl.java:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-01-08 17:26:12.281 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:240] - Quartz Scheduler v.2.2.1 created.
+2018-01-08 17:26:12.284 [main] INFO  org.quartz.simpl.RAMJobStore[RAMJobStore.java:155] - RAMJobStore initialized.
+2018-01-08 17:26:12.286 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:305] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-01-08 17:26:12.286 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1339] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-01-08 17:26:12.286 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1343] - Quartz scheduler version: 2.2.1
+2018-01-08 17:26:12.308 [main] INFO  com.man.demo.QuartzManager[QuartzManager.java:106] - jobClass=com.man.demo.TestTimer,date=1515403615000
+2018-01-08 17:26:12.310 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:575] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-01-08 17:26:50.001 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:26:50.002 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:26:50.503 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:26:50.504 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:26:55.026 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:26:55.526 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:27:00.002 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:27:00.006 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:27:00.504 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:27:00.508 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:27:50.000 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:27:50.001 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:27:50.501 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:27:50.502 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:27:55.002 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:27:55.504 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:28:00.002 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:28:00.002 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:28:00.503 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:28:00.503 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:28:16.297 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1184] - Using default implementation for ThreadExecutor
+2018-01-08 17:28:16.310 [main] INFO  org.quartz.simpl.SimpleThreadPool[SimpleThreadPool.java:268] - Job execution threads will use class loader of thread: main
+2018-01-08 17:28:16.336 [main] INFO  org.quartz.core.SchedulerSignalerImpl[SchedulerSignalerImpl.java:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-01-08 17:28:16.339 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:240] - Quartz Scheduler v.2.2.1 created.
+2018-01-08 17:28:16.353 [main] INFO  org.quartz.simpl.RAMJobStore[RAMJobStore.java:155] - RAMJobStore initialized.
+2018-01-08 17:28:16.355 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:305] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-01-08 17:28:16.356 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1339] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-01-08 17:28:16.357 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1343] - Quartz scheduler version: 2.2.1
+2018-01-08 17:28:16.375 [main] INFO  com.man.demo.QuartzManager[QuartzManager.java:106] - jobClass=com.man.demo.TestTimer,date=1515403730000
+2018-01-08 17:28:16.379 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:575] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-01-08 17:28:50.001 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:28:50.003 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:28:50.025 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:28:50.503 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:28:50.504 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:28:50.526 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:29:00.001 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:29:00.003 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:29:00.005 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:29:00.502 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:29:00.504 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:29:00.505 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:29:50.002 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:29:50.003 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:29:50.003 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:29:50.504 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:29:50.504 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:29:50.506 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:30:00.001 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:30:00.002 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:30:00.003 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:30:00.503 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:30:00.504 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:30:00.505 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:30:50.003 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:30:50.005 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:30:50.005 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:30:50.505 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:30:50.506 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:30:50.506 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:31:00.001 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:31:00.002 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:31:00.005 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:31:00.501 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:31:00.503 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:31:00.506 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:31:50.002 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:31:50.003 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:31:50.003 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:31:50.503 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:31:50.505 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:31:50.505 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:32:00.001 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:32:00.002 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:32:00.003 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:32:00.502 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:32:00.504 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:32:00.504 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:32:50.001 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:32:50.002 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:32:50.003 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:32:50.503 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:32:50.504 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:32:50.505 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:33:00.004 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:33:00.004 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:33:00.011 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:33:00.507 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:33:00.508 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:33:00.512 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:33:50.001 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:33:50.001 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:33:50.002 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:33:50.501 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:33:50.502 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:33:50.502 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:34:00.036 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:34:00.038 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:34:00.537 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:34:00.539 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:34:03.621 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1184] - Using default implementation for ThreadExecutor
+2018-01-08 17:34:03.635 [main] INFO  org.quartz.simpl.SimpleThreadPool[SimpleThreadPool.java:268] - Job execution threads will use class loader of thread: main
+2018-01-08 17:34:03.663 [main] INFO  org.quartz.core.SchedulerSignalerImpl[SchedulerSignalerImpl.java:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-01-08 17:34:03.665 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:240] - Quartz Scheduler v.2.2.1 created.
+2018-01-08 17:34:03.667 [main] INFO  org.quartz.simpl.RAMJobStore[RAMJobStore.java:155] - RAMJobStore initialized.
+2018-01-08 17:34:03.669 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:305] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-01-08 17:34:03.670 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1339] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-01-08 17:34:03.670 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1343] - Quartz scheduler version: 2.2.1
+2018-01-08 17:34:03.687 [main] INFO  com.man.demo.QuartzManager[QuartzManager.java:106] - jobClass=com.man.demo.TestTimer,date=1515404090000
+2018-01-08 17:34:03.690 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:575] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-01-08 17:34:50.005 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:34:50.010 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:34:50.028 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:34:50.508 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:34:50.513 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:34:50.529 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:35:00.002 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:35:00.007 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:35:00.011 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:35:00.504 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:35:00.509 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:35:00.513 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:35:13.355 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1184] - Using default implementation for ThreadExecutor
+2018-01-08 17:35:13.368 [main] INFO  org.quartz.simpl.SimpleThreadPool[SimpleThreadPool.java:268] - Job execution threads will use class loader of thread: main
+2018-01-08 17:35:13.391 [main] INFO  org.quartz.core.SchedulerSignalerImpl[SchedulerSignalerImpl.java:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-01-08 17:35:13.393 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:240] - Quartz Scheduler v.2.2.1 created.
+2018-01-08 17:35:13.395 [main] INFO  org.quartz.simpl.RAMJobStore[RAMJobStore.java:155] - RAMJobStore initialized.
+2018-01-08 17:35:13.397 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:305] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-01-08 17:35:13.397 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1339] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-01-08 17:35:13.400 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1343] - Quartz scheduler version: 2.2.1
+2018-01-08 17:35:13.422 [main] INFO  com.man.demo.QuartzManager[QuartzManager.java:106] - jobClass=com.man.demo.TestTimer,date=1515404150000
+2018-01-08 17:35:13.426 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:575] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-01-08 17:35:50.002 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:35:50.003 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:35:50.024 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:35:50.504 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:35:50.505 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:35:50.525 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:36:00.001 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:36:00.002 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:36:00.502 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:36:00.503 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:36:50.001 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:36:50.001 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:36:50.005 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:36:50.503 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:36:50.504 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:36:50.507 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:37:00.001 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:37:00.002 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:37:00.503 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:37:00.503 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:37:50.000 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:37:50.002 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:37:50.002 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:37:50.503 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:37:50.504 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:37:50.504 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:37:58.159 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1184] - Using default implementation for ThreadExecutor
+2018-01-08 17:37:58.175 [main] INFO  org.quartz.simpl.SimpleThreadPool[SimpleThreadPool.java:268] - Job execution threads will use class loader of thread: main
+2018-01-08 17:37:58.204 [main] INFO  org.quartz.core.SchedulerSignalerImpl[SchedulerSignalerImpl.java:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-01-08 17:37:58.206 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:240] - Quartz Scheduler v.2.2.1 created.
+2018-01-08 17:37:58.208 [main] INFO  org.quartz.simpl.RAMJobStore[RAMJobStore.java:155] - RAMJobStore initialized.
+2018-01-08 17:37:58.213 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:305] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-01-08 17:37:58.214 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1339] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-01-08 17:37:58.214 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1343] - Quartz scheduler version: 2.2.1
+2018-01-08 17:37:58.233 [main] INFO  com.man.demo.QuartzManager[QuartzManager.java:106] - jobClass=com.man.demo.TestTimer,date=1515404330000
+2018-01-08 17:37:58.237 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:575] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-01-08 17:38:00.001 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:38:00.002 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:38:00.503 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:38:00.504 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:38:50.002 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:38:50.001 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:38:50.029 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:38:50.504 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:38:50.504 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:38:50.529 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:39:00.002 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:39:00.004 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:39:00.503 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:39:00.505 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:39:50.001 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:39:50.001 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:39:50.004 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:39:50.502 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:39:50.502 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:39:50.505 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:40:00.002 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:40:00.004 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:40:00.503 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:40:00.507 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:40:50.001 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:40:50.001 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:40:50.003 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:40:50.503 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:40:50.503 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:40:50.505 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:41:00.045 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:41:00.045 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:41:00.547 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:41:00.547 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:41:20.672 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1184] - Using default implementation for ThreadExecutor
+2018-01-08 17:41:20.687 [main] INFO  org.quartz.simpl.SimpleThreadPool[SimpleThreadPool.java:268] - Job execution threads will use class loader of thread: main
+2018-01-08 17:41:20.710 [main] INFO  org.quartz.core.SchedulerSignalerImpl[SchedulerSignalerImpl.java:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-01-08 17:41:20.713 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:240] - Quartz Scheduler v.2.2.1 created.
+2018-01-08 17:41:20.715 [main] INFO  org.quartz.simpl.RAMJobStore[RAMJobStore.java:155] - RAMJobStore initialized.
+2018-01-08 17:41:20.723 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:305] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-01-08 17:41:20.723 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1339] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-01-08 17:41:20.723 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1343] - Quartz scheduler version: 2.2.1
+2018-01-08 17:41:20.742 [main] INFO  com.man.demo.QuartzManager[QuartzManager.java:106] - jobClass=com.man.demo.TestTimer,date=1515404510000
+2018-01-08 17:41:20.745 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:575] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-01-08 17:41:50.004 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:41:50.008 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:41:50.028 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:41:50.507 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:41:50.510 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:41:50.531 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:41:56.002 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:41:56.504 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:42:00.001 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:42:00.003 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:42:00.501 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:42:00.504 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:42:50.002 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:42:50.003 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:42:50.005 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:42:50.503 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:42:50.504 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:42:50.506 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:42:56.001 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:42:56.502 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:43:00.001 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:43:00.001 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:43:00.502 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:43:00.502 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:43:31.451 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1184] - Using default implementation for ThreadExecutor
+2018-01-08 17:43:31.467 [main] INFO  org.quartz.simpl.SimpleThreadPool[SimpleThreadPool.java:268] - Job execution threads will use class loader of thread: main
+2018-01-08 17:43:31.498 [main] INFO  org.quartz.core.SchedulerSignalerImpl[SchedulerSignalerImpl.java:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-01-08 17:43:31.501 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:240] - Quartz Scheduler v.2.2.1 created.
+2018-01-08 17:43:31.503 [main] INFO  org.quartz.simpl.RAMJobStore[RAMJobStore.java:155] - RAMJobStore initialized.
+2018-01-08 17:43:31.505 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:305] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-01-08 17:43:31.507 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1339] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-01-08 17:43:31.507 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1343] - Quartz scheduler version: 2.2.1
+2018-01-08 17:43:31.523 [main] INFO  com.man.demo.QuartzManager[QuartzManager.java:106] - jobClass=com.man.demo.TestTimer,date=1515404616000
+2018-01-08 17:43:31.526 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:575] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-01-08 17:43:36.022 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:43:36.525 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:43:42.002 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:43:42.502 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:43:48.002 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:43:48.504 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:43:50.001 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:43:50.002 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:43:50.501 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:43:50.504 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:43:54.002 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:43:54.503 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:44:00.003 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:44:00.006 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:44:00.010 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:44:00.505 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:44:00.508 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:44:00.511 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:44:06.002 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:44:06.503 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:44:12.002 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:44:12.503 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:44:18.002 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:44:18.503 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:44:24.001 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:44:24.503 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:44:30.001 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:44:30.502 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:44:36.001 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:44:36.502 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:44:42.002 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:44:42.504 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:44:48.001 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:44:48.503 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:44:50.001 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:44:50.001 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:44:50.503 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:44:50.503 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:44:54.002 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:44:54.502 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:45:00.001 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:45:00.004 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:45:00.011 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:45:00.503 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:45:00.504 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:45:00.512 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:45:06.016 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:45:06.517 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:45:12.002 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:45:12.504 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:45:18.001 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:45:18.503 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:45:24.001 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:45:24.502 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:45:30.001 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:45:30.501 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:45:36.002 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:45:36.503 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:45:42.002 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:45:42.503 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:45:48.001 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:45:48.503 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:45:50.001 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:45:50.001 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:45:50.503 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:45:50.503 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:45:54.001 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:45:54.501 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:46:00.001 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:46:00.001 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:46:00.002 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:46:00.503 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:46:00.503 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:46:00.503 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:46:06.002 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:46:06.503 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:46:12.001 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:46:12.502 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:46:18.001 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:46:18.502 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:46:24.003 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:46:24.504 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:46:30.001 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:46:30.502 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:46:36.001 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:46:36.502 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:46:42.001 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:46:42.501 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:46:48.001 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:46:48.502 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:46:50.000 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:46:50.001 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:46:50.502 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:46:50.502 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:46:54.001 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:46:54.502 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:47:00.001 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:47:00.002 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:47:00.004 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:47:00.503 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:47:00.503 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:47:00.504 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:47:06.001 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:47:06.503 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:47:12.000 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:47:12.502 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:47:18.001 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:47:18.503 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:47:24.001 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:47:24.503 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:47:30.001 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:47:30.502 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:47:36.001 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:47:36.502 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:47:42.001 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:47:42.502 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:47:48.001 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:47:48.504 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:47:50.001 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:47:50.002 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:47:50.503 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:47:50.504 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:47:54.002 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:47:54.504 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:48:00.002 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:48:00.002 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:48:00.003 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:48:00.503 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:48:00.503 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:48:00.504 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:48:06.001 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:48:06.502 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:48:12.001 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:48:12.501 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:48:18.001 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:48:18.502 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:48:24.001 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:48:24.502 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:48:30.002 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:48:30.502 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:48:36.000 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:48:36.502 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:48:42.001 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:48:42.503 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:48:48.001 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:48:48.502 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:48:50.001 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:48:50.002 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:48:50.502 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:48:50.503 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:48:54.001 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:48:54.502 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:49:00.001 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:49:00.001 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:49:00.002 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:49:00.503 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:49:00.503 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:49:00.503 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:49:06.002 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:49:06.503 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:49:12.000 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:49:12.502 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:49:18.001 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:49:18.502 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:49:24.000 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:49:24.501 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:49:30.001 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:49:30.502 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:49:36.001 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:49:36.503 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:49:42.002 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:49:42.503 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:49:48.002 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:49:48.502 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:49:50.002 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:49:50.001 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:49:50.503 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:49:50.504 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:49:54.002 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:49:54.503 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:50:00.001 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:50:00.003 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:50:00.004 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:50:00.503 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:50:00.505 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:50:00.505 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:50:06.001 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:50:06.502 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:50:12.000 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:50:12.501 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:50:18.001 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:50:18.503 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:50:24.001 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:50:24.502 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:50:30.001 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:50:30.502 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:50:36.001 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:50:36.501 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:50:42.001 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:50:42.502 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:50:48.001 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:50:48.502 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:50:50.001 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:50:50.002 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:50:50.503 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:50:50.504 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:50:54.000 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:50:54.502 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:51:00.001 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:51:00.001 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:51:00.001 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:51:00.503 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:51:00.503 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:51:00.503 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:51:06.001 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:51:06.502 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:51:12.001 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:51:12.502 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:51:18.001 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:51:18.501 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:51:24.001 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:51:24.502 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:51:30.001 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:51:30.502 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:51:36.001 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:51:36.502 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:51:42.000 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:51:42.502 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:51:48.002 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:51:48.503 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:51:50.000 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:51:50.001 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:51:50.501 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:51:50.502 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:51:54.001 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:51:54.502 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:52:00.002 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:52:00.003 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:52:00.005 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:52:00.503 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:52:00.504 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:52:00.506 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:52:06.001 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:52:06.503 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:52:12.001 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:52:12.502 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:52:18.000 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:52:18.501 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:52:24.002 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:52:24.503 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:52:30.001 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:52:30.502 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:52:36.001 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:52:36.502 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:52:42.000 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:52:42.503 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:52:48.001 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:52:48.502 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:52:50.001 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:52:50.002 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:52:50.502 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:52:50.503 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:52:54.000 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:52:54.501 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:53:00.000 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:53:00.001 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:53:00.001 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:53:00.501 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:53:00.502 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:53:00.502 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:53:06.001 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:53:06.501 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:53:23.457 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1184] - Using default implementation for ThreadExecutor
+2018-01-08 17:53:23.473 [main] INFO  org.quartz.simpl.SimpleThreadPool[SimpleThreadPool.java:268] - Job execution threads will use class loader of thread: main
+2018-01-08 17:53:23.499 [main] INFO  org.quartz.core.SchedulerSignalerImpl[SchedulerSignalerImpl.java:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-01-08 17:53:23.502 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:240] - Quartz Scheduler v.2.2.1 created.
+2018-01-08 17:53:23.506 [main] INFO  org.quartz.simpl.RAMJobStore[RAMJobStore.java:155] - RAMJobStore initialized.
+2018-01-08 17:53:23.508 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:305] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-01-08 17:53:23.509 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1339] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-01-08 17:53:23.510 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1343] - Quartz scheduler version: 2.2.1
+2018-01-08 17:53:23.528 [main] INFO  com.man.demo.QuartzManager[QuartzManager.java:106] - jobClass=com.man.demo.TestTimer,date=1515405208000
+2018-01-08 17:53:23.531 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:575] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-01-08 17:53:28.018 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:53:28.520 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:53:35.000 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:53:35.502 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:53:42.001 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:53:42.502 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:53:49.002 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:53:49.504 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:53:50.004 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:53:50.004 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:53:50.507 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:53:50.507 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:53:56.003 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:53:56.505 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:54:00.002 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:54:00.005 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:54:00.006 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:54:00.504 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:54:00.507 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:54:00.508 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:54:07.002 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:54:07.504 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:54:14.002 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:54:14.504 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:54:21.004 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:54:21.506 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:54:28.003 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:54:28.505 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:54:35.000 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:54:35.502 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:54:42.002 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:54:42.503 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:54:49.001 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:54:49.502 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:54:50.000 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:54:50.000 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:54:50.501 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:54:50.501 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:54:56.001 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:54:56.503 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:55:00.001 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:55:00.004 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:55:00.007 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:55:00.502 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:55:00.504 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:55:00.508 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:55:07.007 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:55:07.509 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:55:14.002 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:55:14.504 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:55:21.001 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:55:21.503 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:55:28.000 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:55:28.501 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:55:35.001 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:55:35.502 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:55:42.001 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:55:42.502 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:55:49.002 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:55:49.503 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:55:50.001 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:55:50.001 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:55:50.501 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:55:50.501 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:55:56.001 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:55:56.502 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:56:00.000 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:56:00.001 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:56:00.001 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:56:00.501 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:56:00.501 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:56:00.502 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:56:07.000 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:56:07.501 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:56:14.002 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:56:14.502 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:56:21.002 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:56:21.503 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:56:28.002 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:56:28.503 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:56:35.002 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:56:35.503 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:56:50.000 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:56:50.000 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:56:50.502 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:56:50.502 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:57:00.010 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:57:00.011 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:57:00.510 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:57:00.512 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:57:50.002 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:57:50.002 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:57:50.503 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:57:50.503 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:58:00.001 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:58:00.002 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:58:00.503 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:58:00.503 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:58:50.001 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:58:50.001 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:58:50.503 [DefaultQuartzScheduler_Worker-9] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:58:50.503 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:59:00.000 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:59:00.003 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:59:00.502 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:59:00.504 [DefaultQuartzScheduler_Worker-10] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:59:50.001 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:59:50.001 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 17:59:50.502 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 17:59:50.502 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 18:00:00.000 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 18:00:00.000 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 18:00:00.501 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 18:00:00.502 [DefaultQuartzScheduler_Worker-2] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 18:00:50.000 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 18:00:50.001 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 18:00:50.508 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 18:00:50.511 [DefaultQuartzScheduler_Worker-3] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 18:01:00.000 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 18:01:00.000 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 18:01:00.671 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 18:01:00.672 [DefaultQuartzScheduler_Worker-4] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 18:01:04.321 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1184] - Using default implementation for ThreadExecutor
+2018-01-08 18:01:04.334 [main] INFO  org.quartz.simpl.SimpleThreadPool[SimpleThreadPool.java:268] - Job execution threads will use class loader of thread: main
+2018-01-08 18:01:04.372 [main] INFO  org.quartz.core.SchedulerSignalerImpl[SchedulerSignalerImpl.java:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-01-08 18:01:04.375 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:240] - Quartz Scheduler v.2.2.1 created.
+2018-01-08 18:01:04.378 [main] INFO  org.quartz.simpl.RAMJobStore[RAMJobStore.java:155] - RAMJobStore initialized.
+2018-01-08 18:01:04.380 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:305] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-01-08 18:01:04.380 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1339] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-01-08 18:01:04.380 [main] INFO  org.quartz.impl.StdSchedulerFactory[StdSchedulerFactory.java:1343] - Quartz scheduler version: 2.2.1
+2018-01-08 18:01:04.397 [main] INFO  com.man.demo.quartz.QuartzManager[QuartzManager.java:106] - jobClass=com.man.demo.quartz.TestTimer,date=1515405667000
+2018-01-08 18:01:04.401 [main] INFO  org.quartz.core.QuartzScheduler[QuartzScheduler.java:575] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-01-08 18:01:07.011 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.quartz.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 18:01:07.513 [DefaultQuartzScheduler_Worker-1] INFO  com.man.demo.quartz.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 18:01:50.000 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 18:01:50.001 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 18:01:50.502 [DefaultQuartzScheduler_Worker-5] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 18:01:50.503 [DefaultQuartzScheduler_Worker-7] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 18:02:00.005 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 18:02:00.006 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:18] - timer started.
+2018-01-08 18:02:00.506 [DefaultQuartzScheduler_Worker-6] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
+2018-01-08 18:02:00.510 [DefaultQuartzScheduler_Worker-8] INFO  com.man.demo.TestTimer[TestTimer.java:24] - timer stopped.
