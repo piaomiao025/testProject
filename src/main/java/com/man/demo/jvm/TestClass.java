@@ -6,7 +6,7 @@ package com.man.demo.jvm;
  * Time: 15:15
  */
 public class TestClass {
-    private static final int m = 123;
+    private int m = 123;
 
     public int inc() {
         return m + 1;
